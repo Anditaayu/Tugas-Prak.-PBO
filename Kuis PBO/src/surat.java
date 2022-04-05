@@ -25,7 +25,7 @@ public class surat implements lombasurat{
         this.input = new Scanner(System.in);
     }
     
-    int penilaiananimasi(){
+    int penilaiansurat(){
         System.out.println("--- Form Penilaian ---");
         System.out.println("Keterangan: Nilai yang valid berada di antara 0 - 100");
         System.out.println(" ");

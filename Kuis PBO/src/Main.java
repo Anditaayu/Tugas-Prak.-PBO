@@ -29,7 +29,8 @@ public class main {
             System.out.println("2. Menulis Surat (Individu)");
             System.out.println("");
             
-            Converter celcius = new Converter(suhu);
+            animasi Animasi = new animasi();
+            surat Surat = new surat();
             boolean ulangi = true;
             
             do{
@@ -43,10 +44,10 @@ public class main {
                 asal = input.nextInt();
                 
                 if (kategori == 1){
-                        
+                        Animasi.penilaiananimasi();
                 }
                 else if (kategori == 2){
-                        ulangi = false;
+                        Animasi.penilaiansurat();
                 }
                 else {
                     System.out.println("Opsi tidak ada. Mohon masukkan opsi dengan benar!");
